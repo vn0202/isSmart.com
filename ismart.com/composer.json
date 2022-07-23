@@ -1,0 +1,17 @@
+{
+    "name": "vn0202/ismart.com",
+    "description": "day la du an php",
+    "autoload": {
+        "psr-4": {
+            "Vn0202\\IsmartCom\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "vn0202",
+            "email": "nghiavuxp0202@gmail.com"
+        }
+    ],
+    "minimum-stability": "beta",
+    "require": {}
+}
