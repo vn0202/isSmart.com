@@ -7,7 +7,7 @@
 $db = [
     'host'=>"localhost",
     "username"=>"root",
-    "password"=>"",
+    "password"=>"nghia123",
     "database"=>"ismart",
 ]
 
