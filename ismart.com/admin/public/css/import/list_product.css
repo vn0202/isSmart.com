@@ -1,0 +1,120 @@
+/*LIST PRODUCT*/
+.tbody-thumb {
+    width: 80px;
+    height: 80px;
+    overflow: hidden;
+}
+
+.tbody-thumb img {
+    border: 1px solid #ddd;
+}
+
+.section_add_cat .add_cat {
+    position: relative;
+    display: inline-block;
+    right: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    margin: 0;
+    padding: 0;
+    min-width: 200px;
+
+}
+
+.section_add_cat .add_cat .sub_menu_add {
+    display: none;
+}
+
+
+.section_add_cat .add_cat:hover .sub_menu_add {
+    display: block;
+    width: 100%;
+    position: absolute;
+    left: 20px;
+    top: 80%;
+    background: rgb(245, 245, 245);
+    box-shadow: 1px 1px 5px #ccc;
+
+
+}
+
+.section_add_cat .sub_menu_add li a {
+    display: block;
+    padding: 8px 12px;
+   
+    box-sizing: border-box;
+}
+
+.section_add_cat .sub_menu_add li a:hover {
+    background-color: green;
+    color: white;
+    border: 1px solid #ccc;
+  
+
+}
+
+/* css for choose cat */
+.group-cat {
+    display: block;
+    background-color: white;
+    padding: 4px 0;
+    color: black;
+    border: 1px solid #ccc;
+    width: 200px;
+}
+
+span.choose-cat {
+    display: inline-block;
+    width: 100%;
+    border-bottom: 1px solid #ccc;
+}
+
+.group-cat .sub-cat,
+.group-cat .parent-id {
+    display: none;
+}
+
+.parent-id__item {
+    position: relative;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    left: 0;
+    right: 0;
+}
+
+.parent-id__item .sub-cat {
+    position: absolute;
+    z-index: 1;
+    left: 100%;
+    top: 0;
+    border: 1px solid #ccc;
+    background-color: white;
+    width: 100%;
+    
+
+}
+.parent-id__item .sub-cat .sub-cat__item{
+    padding: 4px 12px;
+}
+.thumb-item:hover{
+    border: 1px solid #ccc;
+    transform: translateX(1px);
+}
+.group-thumb {
+    margin-top: 20px;
+    display: flex;
+    /* width: 500px; */
+    justify-content:flex-start;
+}
+
+.thumb-item {
+    /* flex: 1; */
+    flex-basis: 100px;
+    height: 100px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: 10px;
+}

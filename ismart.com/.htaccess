@@ -1,0 +1,8 @@
+RewriteEngine on
+ RewriteRule ^bai-viet\/([^#!@]+)-([0-9]+).html$ index.php?mod=blogs&action=detail&id=$2
+ RewriteRule ^pages\/([a-zA-Z0-9_\-]+)-([0-9]+).html$ index.php?mod=pages&id=$2
+ RewriteRule ^danh-muc\/([^@#]+)-([0-9]+).html$ index.php?mod=home&action=listProductByParentCat&id=$2
+ RewriteRule ^chi-tiet-san-pham\/([^@#$]+)-([0-9]+).html$ index.php?mod=product&id=$2
+ RewriteRule ^thanh-toan.html$ index.php?mod=checkout
+ RewriteRule ^gio-hang.html$ index.php?mod=cart
+ RewriteRule ^cam-on-quy-khach.html$ index.php?mod=checkout&action=thank

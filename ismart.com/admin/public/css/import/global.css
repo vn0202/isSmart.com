@@ -1,0 +1,77 @@
+body{
+    font-family: "Roboto Regular";
+    font-size: 14px;
+    line-height: 24px;
+    color: #333;
+}
+.fl-left{ float: left;}
+.fl-right{ float: right;}
+img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+/*Reset Bootstrap*/
+ul li{ list-style: none!important;}
+a{ text-decoration: none!important;}
+.dropdown-menu{
+    left: inherit;
+    right: 10px;
+    border-radius: 0;
+    -webkit-box-shadow: 0 0px 2px rgba(0,0,0,0.15);
+    box-shadow: 0 0px 2px rgba(0,0,0,0.15);
+    -webkit-box-shadow: 0 0px 2px rgba(0,0,0,0.15);
+}
+.dropdown .dropdown-toggle{
+    background: none;
+    border: none;
+    outline: none;
+}
+.dropdown-menu>li>a{ 
+    padding: 5px 20px;
+    color: #2b2b2b;
+    font-family: 'Roboto Regular';
+}
+
+/*CK Editor*/
+#cke_desc{
+    width: 800px;
+    margin-bottom: 15px;
+}
+.error{
+    color: orange;
+} 
+#header-wp .sub-menu .add_cat {
+    position: relative;
+    right: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+}
+
+#header-wp #main-menu .add_cat .sub_menu_add {
+    display: none;
+}
+
+
+#header-wp #main-menu .sub-menu .add_cat:hover .sub_menu_add{
+    display: block;
+    width: 100%;
+    position: absolute;
+    left: 100%;
+    background: rgb(245, 245, 245);
+    top: 0;
+    box-shadow: 1px 1px 5px #ccc;
+    margin: 0;
+    padding: 0;
+    
+}
+#header-wp #main-menu .sub-menu .sub_menu_add li  a {
+    display:block;
+    padding: 8px 12px;
+}
+
+#header-wp #main-menu .sub-menu .sub_menu_add li a:hover {
+    border: 1px solid #ccc;
+    /* background-color: aqua; */
+}

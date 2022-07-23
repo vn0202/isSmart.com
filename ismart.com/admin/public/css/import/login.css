@@ -1,0 +1,59 @@
+body{
+    height: 100vh;
+}
+#wrapper-login {
+
+    background-color: rgb(111, 139, 113);
+    display: flex;
+    height: 100%;
+    
+}
+#content-login {
+    margin: auto;
+    width: 324px;
+    padding: 20px;
+    background-color: white;
+    text-align: center;
+    border-radius: 3px;
+}
+
+.heading-login {
+    margin-bottom: 20px;
+    font-size: 1.8rem;
+}
+.form-group{
+    text-align: left;
+}
+label{
+    display: inline-block;
+    min-width: 100px;
+}
+input[name="btn_login"]
+{
+    padding: 8px 30px;
+    background-color:blue;
+    color: white;
+}
+
+input[name="btn_login"]:hover{
+    background-color: green;
+    cursor: pointer;
+}
+input[name="userName"],input[name='password']{
+    padding: 8px 5px;
+    background-color: rgb(249, 243, 243);
+    border: none;
+    border-radius: 2px;
+
+}
+input[name="userName"]:focus,input[name='password']:focus{
+    background-color: rgb(249, 221, 81);
+}
+.forget_pass{
+    
+    margin:15px  0;
+    display: inline-block;
+}
+.error{
+    color: rgb(255, 179, 39);
+}
